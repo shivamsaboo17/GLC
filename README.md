@@ -2,6 +2,7 @@
 Unofficial implementation of [Using Trusted Data to Train Deep Networks on
 Labels Corrupted by Severe Noise](https://arxiv.org/pdf/1802.05300.pdf) (NIPS 18) in PyTorch. 
 ## Usage
+(See example.ipynb for a walkthrough on MNIST)
 ```python
 from datasets import GoldCorrectionDataset
 from glc import CorrectionGenerator, GoldCorrectionLossFunction
