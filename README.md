@@ -1,7 +1,6 @@
 # GLC
 Unofficial implementation of [Using Trusted Data to Train Deep Networks on
-Labels Corrupted by Severe Noise](https://arxiv.org/pdf/1802.05300.pdf) (NIPS 18) in PyTorch. Gold Loss Correction is implemented for training neural networks with labels corrupted with severe noise.
-
+Labels Corrupted by Severe Noise](https://arxiv.org/pdf/1802.05300.pdf) (NIPS 18) in PyTorch. 
 ## Usage
 ```python
 from datasets import GoldCorrectionDataset
